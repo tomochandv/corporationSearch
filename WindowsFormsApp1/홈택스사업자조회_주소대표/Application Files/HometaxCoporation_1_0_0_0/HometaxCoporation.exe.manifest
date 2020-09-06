@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HometaxCoporation.exe" version="1.0.0.0" publicKeyToken="05ca7ee650129d5b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Mag1cwind0w-O-Sunny-Day-Osd-sun.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HometaxCoporation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HometaxCoporation.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 매니페스트 옵션
+             Windows 사용자 계정 컨트롤 수준을 변경하려면 
+             requestedExecutionLevel 노드를 다음 중 하나로 바꿉니다.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel 요소를 지정하면 파일 및 레지스트리 가상화를 사용하지 않습니다. 
+            이전 버전과의 호환성을 위해 애플리케이션에 가상화가 필요한 경우
+            이 요소를 제거합니다.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HometaxCoporation.exe" size="672240">
+      <assemblyIdentity name="HometaxCoporation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hPJsOnCzIc76j+oU9Ebd865xmOqbGgeThZLy8LjzjEQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="325632">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L7dq7kYHLCZcuxr9rIiJN4VYOv/sR1XqJJisTX1Lyqc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HometaxCoporation.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Mag1cwind0w-O-Sunny-Day-Osd-sun.ico" size="327371">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HyP9I/NdB6CH4JYa/EeLYs0PI77binZsVXbFzmdu7fM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 이 애플리케이션이 테스트되고 함께 작동하도록 설계된 Windows 버전
+           목록입니다. 해당 요소의 주석 처리를 제거하면 Windows에서
+           호환 가능성이 가장 큰 환경을 자동으로 선택합니다. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-RKFMGPC\iSens_pb" issuerKeyHash="c1b7aeee49be2b5a916c14927487751958187c1a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1TQSaCavr2c/iHf99/r5VveqXTHz+N4PvQIoWF+fMmg=</DigestValue></Reference></SignedInfo><SignatureValue>Z2A5utRkSyY6uRyMIOIat8jUUpCXFtYCyNydzsGB7grn0a+WyhtMP2XOUepOcPYlPpO2MGwj/S/e1Jn0sBIXL+U253KaocnxB1Xqq9ohVcr2H7NvLVEYAAOYlwIlI+o9OL0zXZs5XSUtzc83Bic64MxCwsTmSBwPotLVEErDPiA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x0VwDeVqaMrKA+hX/fkDhP6TUUPvtn4cpPPRhy4Iekv9pQ6Py/D9g4V/cmuTCt27SH8QI0Fqz9egFe2epH0cqpRdsVkfj5X7qCsnKJtgGUhhqYvyvI5+ufxELEbEqdv1DpBkSPjBMGJA80DIDPjGXY6X8gTPue2QYdVgIZyRlt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="68329f5f582802bd0fdef8f3315daaf756f9faf7fd77883f67afaf26681234d5" Description="" Url=""><as:assemblyIdentity name="HometaxCoporation.exe" version="1.0.0.0" publicKeyToken="05ca7ee650129d5b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-RKFMGPC\iSens_pb</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6SPK0emES3JjTkvMRnXCD4d70xz29zbetP08XsbzDpI=</DigestValue></Reference></SignedInfo><SignatureValue>fefuZeb9e2M8EVAqgmvFqpDWHqhIAOy1oyTLzSS0dKx94/4uo8RP9KTzb+PpS6i0j9O9xKeS9CI/cHT3dhEInrdNfJdwh6m/cN5QEsSciC9KjCWHXrePOaJghyKDe8deRBJMDt5Yl5PppI1ki8VTlndQRJAgTCwdEoz1jqVkCms=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x0VwDeVqaMrKA+hX/fkDhP6TUUPvtn4cpPPRhy4Iekv9pQ6Py/D9g4V/cmuTCt27SH8QI0Fqz9egFe2epH0cqpRdsVkfj5X7qCsnKJtgGUhhqYvyvI5+ufxELEbEqdv1DpBkSPjBMGJA80DIDPjGXY6X8gTPue2QYdVgIZyRlt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQJF1EFEg9pZRLJ+psBS+BbTANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAFIASwBGAE0ARwBQAEMAXABpAFMAZQBuAHMAXwBwAGIwHhcNMjAwOTA0MDU0NzA1WhcNMjEwOTA0MTE0NzA1WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAFIASwBGAE0ARwBQAEMAXABpAFMAZQBuAHMAXwBwAGIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMdFcA3lamjKygPoV/35A4T+k1FD77Z+HKTz0YcuCHpL/aUOj8vw/YOFf3Jrkwrdu0h/ECNBas/XoBXtnqR9HKqUXbFZH4+V+6grJyibYBlIYamL8ryOfrn8RCxGxKnb9Q6QZEj4wTBiQPNAyAz4xl2Ol/IEz7ntkGHVYCGckZbdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAACD0PeydZHkGpZYHUStF4u+qYnRE+q+NxLwSlBNjteFiRpytMAS8x5GUyTM4IGTofpobpFbVZzC6V/EVIhBH57mDEq6iQghzdZku2HAuA4W9JMTMI/eyyJga1Pbb3/SdQAnoNV64oUj5PV23+izYebonGzL6XgbFL6R9ZeJFSf4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
